@@ -72,6 +72,7 @@ button {
 #secondpage {
     color: black;
     position: relative;
+    height: 85vh;
 }
 
 .arrow {
@@ -81,7 +82,7 @@ button {
     display: block;
     position: absolute;
     left: 50%;
-    transform: translateY(-150px);
+    transform: translateY(-140px);
     z-index: 10;
 }
     .arrow:before, .arrow:after {
@@ -106,6 +107,7 @@ button {
 .aside-left {
     position: absolute;
     left: 18%;
+    top: 1em;
     width: 20em;
     height: auto;
     text-align: left;
@@ -159,7 +161,8 @@ button {
 }
 .circle {
 	width: 550px;
-	height: 550px;
+    height: 550px;
+    top: 1em;
 	background-color: rgb(250, 42, 52);
 	border-radius: 100%;
     margin: 6em auto 0;
