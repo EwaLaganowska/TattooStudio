@@ -151,10 +151,11 @@ button {
 @media (max-width: 960px) {
     .aside-left {
         max-width: 15em;
+        Font-size: 0.7rem;
     }
     .side-border {
         width: 500px;
-        height: 245px;
+        height: 360px;
         border: 4px solid black;
         border-left: none;
     }
@@ -208,5 +209,6 @@ i {
     height: 8em;
     border: 5px solid rgb(250, 42, 52);
     bottom: 15%;
-    left: -80%;
+    left: auto;
+    right: auto;
 }
